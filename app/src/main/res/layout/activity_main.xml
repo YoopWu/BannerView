@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <yoop.bannerlayout.BannerViewLayout
+        android:id="@+id/banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:bl_vp_margin_left="16dp"
+        app:bl_vp_margin_right="16dp"
+        app:bl_vp_page_margin="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <yoop.bannerlayout.PageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:dotColor="#4C00574A"
+        app:dotColorSelected="#00574A"
+        app:dotHeight="5dp"
+        app:dotSelectedWidth="10dp"
+        app:dotSpace="5dp"
+        app:dotWidth="7dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/banner_view"/>
+
+</android.support.constraint.ConstraintLayout>

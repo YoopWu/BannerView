@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerViewLayout">
+        <attr name="bl_vp_margin_left" format="reference|dimension"/>
+        <attr name="bl_vp_margin_right" format="reference|dimension"/>
+        <attr name="bl_vp_page_margin" format="reference|dimension"/>
+    </declare-styleable>
+    <declare-styleable name="PageIndicator">
+        <attr name="dotColor" format="reference|color"/>
+        <attr name="dotColorSelected" format="reference|color"/>
+        <attr name="dotHeight" format="reference|dimension"/>
+        <attr name="dotWidth" format="reference|dimension"/>
+        <attr name="dotSpace" format="reference|dimension"/>
+        <attr name="dotSelectedWidth" format="reference|dimension"/>
+    </declare-styleable>
+</resources>
